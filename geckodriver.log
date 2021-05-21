@@ -1211,3 +1211,12 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.js
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1621628122551	geckodriver	INFO	Listening on 127.0.0.1:62882
+1621628125613	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilev5rKQY"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621628127325	Marionette	INFO	Listening on port 62890
+1621628127678	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621628132604	Marionette	INFO	Stopped listening on port 62890
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilev5rKQY\protections.sqlite
