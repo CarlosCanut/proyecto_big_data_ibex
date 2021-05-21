@@ -12,7 +12,7 @@ fi
 
 
 for stonk in $local_stonks; do
-	if hdfs dfs -test -e $stonk
+	if hdfs dfs -test -e /$stonk
 	then
 		echo already exists	
 	else
