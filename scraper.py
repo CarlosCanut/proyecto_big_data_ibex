@@ -5,6 +5,8 @@ import time
 import pprint
 import datetime
 import csv
+import os
+
 
 start_url = "https://www.expansion.com/mercados/cotizaciones/indices/ibex35_I.IB.html"
 
@@ -71,6 +73,10 @@ def stonks():
                 writer = csv.writer(file)
                 writer.writerows(reduced_values)
 
+            # add files to git repo
+            os.system("git add" + "stonks/all_" + date + ".csv")
+            os.system("git add" + "stonks/reduced_" + date + ".csv")
+
             driver.quit()
         except:
             driver.quit()
@@ -79,10 +85,16 @@ def stonks():
 hours = [9,10,11,12,13,14,15,16,17,18]
 minute = 30
 
-while True:
+stonks()
+"""while True:
     hour_now = str(datetime.datetime.today()).split(" ")[1].split(":")
     if int(hour_now[0]) in hours and int(hour_now[1]) == minute:
         stonks()
+        if int(hour_now[0]) == 18 and int(hour_now[1]) == minute:
+            break"""
+
+os.system('git commit -m "' + str(datetime.datetime.today()) + '"')
+os.system("git push -u origin master")
 
 
 """for hour in range(10):
