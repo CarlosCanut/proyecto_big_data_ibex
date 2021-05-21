@@ -1,9 +1,9 @@
 start-dfs.sh
 git pull
 
-read -p "¿Es esta tu primera vez o simplemente estas actualizando los datos? (1: primera vez, 2: actualizar datos)" primera_ejecucion
+read -p "¿Es esta tu primera vez o simplemente estas actualizando los datos? (yes : primera vez, no : actualizar datos)" primera_ejecucion
 
-if $primera_ejecucion = '1'
+if $primera_ejecucion == 'yes'
 then
 	local_stonks=$(ls stonks/)
 else
