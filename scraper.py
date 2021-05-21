@@ -74,8 +74,8 @@ def stonks():
                 writer.writerows(reduced_values)
 
             # # add files to git repo
-            # os.system("git add" + " stonks/all_" + date + ".csv")
-            # os.system("git add" + " stonks/reduced_" + date + ".csv")
+            os.system("git add" + " stonks/all_" + date + ".csv")
+            os.system("git add" + " stonks/reduced_" + date + ".csv")
 
             driver.quit()
         except:
