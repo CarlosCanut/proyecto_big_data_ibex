@@ -65,11 +65,11 @@ def stonks():
                 reduced_values.append( [new_row[0], new_row[1], new_row[5], new_row[6], new_row[9]] )
 
             #print(date + ".csv")
-            with open(("/home/alumno/Desktop/proyecto_big_data_ibex/stonks/all_" + date + ".csv"), 'w', newline='') as file:
+            with open(("stonks/all_" + date + ".csv"), 'w', newline='') as file:
                 writer = csv.writer(file)
                 writer.writerows(total_values)
 
-            with open(("/home/alumno/Desktop/proyecto_big_data_ibex/stonks/reduced_" + date + ".csv"), 'w', newline='') as file:
+            with open(("stonks/reduced_" + date + ".csv"), 'w', newline='') as file:
                 writer = csv.writer(file)
                 writer.writerows(reduced_values)
 
