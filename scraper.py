@@ -93,7 +93,7 @@ stonks()
         if int(hour_now[0]) == 18 and int(hour_now[1]) == minute:
             break"""
 
-os.system('git commit -m "' + str(datetime.datetime.today()) + '"')
+os.system('git commit -m "' + str(datetime.datetime.today())[:10] + '"')
 os.system("git push -u origin master")
 
 
