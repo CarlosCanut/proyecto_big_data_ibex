@@ -1,0 +1,1069 @@
+1621184593685	geckodriver	INFO	Listening on 127.0.0.1:65005
+1621184596725	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileOIrIMS"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621184599701	Marionette	INFO	Listening on port 65013
+1621184599945	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621184604962	Marionette	INFO	Stopped listening on port 65013
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621185048640	geckodriver	INFO	Listening on 127.0.0.1:49549
+1621185051724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilewj1tDW"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185054798	Marionette	INFO	Listening on port 49557
+1621185054888	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185060250	Marionette	INFO	Stopped listening on port 49557
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilewj1tDW\protections.sqlite
+1621185099168	geckodriver	INFO	Listening on 127.0.0.1:49719
+1621185102218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileXASUGJ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185104170	Marionette	INFO	Listening on port 49728
+1621185104269	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185110111	Marionette	INFO	Stopped listening on port 49728
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+[Child 11200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1621185127738	geckodriver	INFO	Listening on 127.0.0.1:49872
+1621185130794	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileDCrwRE"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185132725	Marionette	INFO	Listening on port 49882
+1621185132858	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185137896	Marionette	INFO	Stopped listening on port 49882
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileDCrwRE\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621185206830	geckodriver	INFO	Listening on 127.0.0.1:50109
+1621185209847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofiletpIEZU"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185211893	Marionette	INFO	Listening on port 50120
+1621185212013	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185217481	Marionette	INFO	Stopped listening on port 50120
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofiletpIEZU\protections.sqlite
+1621185286535	geckodriver	INFO	Listening on 127.0.0.1:50273
+1621185289598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileNqfuRJ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185291570	Marionette	INFO	Listening on port 50283
+1621185291662	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185297001	Marionette	INFO	Stopped listening on port 50283
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileNqfuRJ\protections.sqlite
+1621185366021	geckodriver	INFO	Listening on 127.0.0.1:50438
+1621185369071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileo9t7nI"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185370863	Marionette	INFO	Listening on port 50448
+1621185371119	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185377729	Marionette	INFO	Stopped listening on port 50448
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileo9t7nI\protections.sqlite
+1621185446659	geckodriver	INFO	Listening on 127.0.0.1:50604
+1621185449731	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileNX2LFn"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185451779	Marionette	INFO	Listening on port 50614
+1621185451901	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185476431	Marionette	INFO	Stopped listening on port 50614
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileNX2LFn\protections.sqlite
+1621185545476	geckodriver	INFO	Listening on 127.0.0.1:50780
+1621185548534	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileQ9cqck"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185550382	Marionette	INFO	Listening on port 50788
+1621185550590	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185555848	Marionette	INFO	Stopped listening on port 50788
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileQ9cqck\protections.sqlite
+1621185624836	geckodriver	INFO	Listening on 127.0.0.1:50941
+1621185627893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileBLVggt"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185629692	Marionette	INFO	Listening on port 50949
+1621185629964	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185635764	Marionette	INFO	Stopped listening on port 50949
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileBLVggt\protections.sqlite
+1621185704670	geckodriver	INFO	Listening on 127.0.0.1:51110
+1621185707695	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile5oVqhS"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185709564	Marionette	INFO	Listening on port 51119
+1621185709745	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185715174	Marionette	INFO	Stopped listening on port 51119
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621185784127	geckodriver	INFO	Listening on 127.0.0.1:51275
+1621185787197	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileVyjB1d"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185789096	Marionette	INFO	Listening on port 51285
+1621185789259	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185794351	Marionette	INFO	Stopped listening on port 51285
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileVyjB1d\protections.sqlite
+1621185863240	geckodriver	INFO	Listening on 127.0.0.1:51436
+1621185866276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilesbKg0s"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185868236	Marionette	INFO	Listening on port 51446
+1621185868337	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185873359	Marionette	INFO	Stopped listening on port 51446
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilesbKg0s\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621185942403	geckodriver	INFO	Listening on 127.0.0.1:51600
+1621185945446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileGhSt1M"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621185947297	Marionette	INFO	Listening on port 51610
+1621185947506	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621185952865	Marionette	INFO	Stopped listening on port 51610
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621236778002	geckodriver	INFO	Listening on 127.0.0.1:51110
+1621236781081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileDPHvcY"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621236783834	Marionette	INFO	Listening on port 51119
+1621236784295	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621236808531	Marionette	INFO	Stopped listening on port 51119
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileDPHvcY\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621242217489	geckodriver	INFO	Listening on 127.0.0.1:53738
+1621242220557	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile87Gf0r"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621242222351	Marionette	INFO	Listening on port 53747
+1621242222626	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621242268039	Marionette	INFO	Stopped listening on port 53747
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621247677074	geckodriver	INFO	Listening on 127.0.0.1:56341
+1621247680139	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileOBxCw1"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621247682104	Marionette	INFO	Listening on port 56351
+1621247682194	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621247706337	Marionette	INFO	Stopped listening on port 56351
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621253115236	geckodriver	INFO	Listening on 127.0.0.1:58938
+1621253118289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileFyEuih"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621253119996	Marionette	INFO	Listening on port 58946
+1621253120353	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621253138710	Marionette	INFO	Stopped listening on port 58946
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621258547647	geckodriver	INFO	Listening on 127.0.0.1:61537
+1621258550709	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileMysGy4"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621258552570	Marionette	INFO	Listening on port 61547
+1621258552754	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621258563479	Marionette	INFO	Stopped listening on port 61547
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621263972576	geckodriver	INFO	Listening on 127.0.0.1:64114
+1621263975636	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileVZ1BqG"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621263977556	Marionette	INFO	Listening on port 64122
+1621263977689	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621263987994	Marionette	INFO	Stopped listening on port 64122
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileVZ1BqG\protections.sqlite
+1621269396724	geckodriver	INFO	Listening on 127.0.0.1:51266
+1621269399794	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofiletTS0jY"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621269402935	Marionette	INFO	Listening on port 51276
+1621269402973	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621269427470	Marionette	INFO	Stopped listening on port 51276
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621323000044	geckodriver	INFO	Listening on 127.0.0.1:61078
+1621323003124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile79VGoD"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621323006074	Marionette	INFO	Listening on port 61086
+1621323006303	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621323051787	Marionette	INFO	Stopped listening on port 61086
+1621326600018	geckodriver	INFO	Listening on 127.0.0.1:61402
+1621326603097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile0EB8Yj"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621326605073	Marionette	INFO	Listening on port 61410
+1621326605176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621326609967	Marionette	INFO	Stopped listening on port 61410
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621326618912	geckodriver	INFO	Listening on 127.0.0.1:61524
+1621326621936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile0Vr410"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621326623826	Marionette	INFO	Listening on port 61532
+1621326623982	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621326648532	Marionette	INFO	Stopped listening on port 61532
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofile0Vr410\protections.sqlite
+1621326657428	geckodriver	INFO	Listening on 127.0.0.1:61662
+1621326660460	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileTsxiM6"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621326662258	Marionette	INFO	Listening on port 61672
+1621326662512	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621326668780	Marionette	INFO	Stopped listening on port 61672
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileTsxiM6\protections.sqlite
+1621330200024	geckodriver	INFO	Listening on 127.0.0.1:61965
+1621330203077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileQ9RinE"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621330204823	Marionette	INFO	Listening on port 61973
+1621330205140	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621330223615	Marionette	INFO	Stopped listening on port 61973
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621330232541	geckodriver	INFO	Listening on 127.0.0.1:62089
+1621330235627	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilelvBjv3"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621330237304	Marionette	INFO	Listening on port 62097
+1621330237680	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621330283143	Marionette	INFO	Stopped listening on port 62097
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621333800022	geckodriver	INFO	Listening on 127.0.0.1:62389
+1621333803083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilenGXmRT"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621333805034	Marionette	INFO	Listening on port 62397
+1621333805137	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621333809973	Marionette	INFO	Stopped listening on port 62397
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621333818925	geckodriver	INFO	Listening on 127.0.0.1:62512
+1621333821971	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileELT1Hq"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621333823860	Marionette	INFO	Listening on port 62520
+1621333824018	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621333842216	Marionette	INFO	Stopped listening on port 62520
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621333851210	geckodriver	INFO	Listening on 127.0.0.1:62635
+1621333854289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofiled1l4se"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621333856045	Marionette	INFO	Listening on port 62643
+1621333856338	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621333874703	Marionette	INFO	Stopped listening on port 62643
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621337400024	geckodriver	INFO	Listening on 127.0.0.1:62938
+1621337403096	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileV3Nv77"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621337404870	Marionette	INFO	Listening on port 62948
+1621337405138	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621337429316	Marionette	INFO	Stopped listening on port 62948
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileV3Nv77\protections.sqlite
+1621337438314	geckodriver	INFO	Listening on 127.0.0.1:63062
+1621337441366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilesSHFew"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621337443185	Marionette	INFO	Listening on port 63070
+1621337443408	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621337449697	Marionette	INFO	Stopped listening on port 63070
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621337458675	geckodriver	INFO	Listening on 127.0.0.1:63186
+1621337461748	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilesREsUW"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621337463530	Marionette	INFO	Listening on port 63194
+1621337463808	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621337482077	Marionette	INFO	Stopped listening on port 63194
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+[Child 2724, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+[Child 2724, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1621341000024	geckodriver	INFO	Listening on 127.0.0.1:63487
+1621341003787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofiledWzVXM"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621341005687	Marionette	INFO	Listening on port 63495
+1621341005835	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621341030650	Marionette	INFO	Stopped listening on port 63495
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+[Child 1316, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+[Child 1316, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1621341039667	geckodriver	INFO	Listening on 127.0.0.1:63616
+1621341042749	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileJy9pdW"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621341044506	Marionette	INFO	Listening on port 63624
+1621341044802	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621341069183	Marionette	INFO	Stopped listening on port 63624
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileJy9pdW\protections.sqlite
+1621344600025	geckodriver	INFO	Listening on 127.0.0.1:63923
+1621344603108	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileHtFMdv"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621344605042	Marionette	INFO	Listening on port 63932
+1621344605163	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621344616247	Marionette	INFO	Stopped listening on port 63932
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+[Child 14656, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1621344625231	geckodriver	INFO	Listening on 127.0.0.1:64049
+1621344628281	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileDXmBHb"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621344629999	Marionette	INFO	Listening on port 64057
+1621344630335	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621344648700	Marionette	INFO	Stopped listening on port 64057
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileDXmBHb\protections.sqlite
+1621344657673	geckodriver	INFO	Listening on 127.0.0.1:64175
+1621344660741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilePClnPB"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621344662587	Marionette	INFO	Listening on port 64183
+1621344662792	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621344681052	Marionette	INFO	Stopped listening on port 64183
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilePClnPB\protections.sqlite
+1621348200023	geckodriver	INFO	Listening on 127.0.0.1:64483
+1621348203070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile0lFmha"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621348204930	Marionette	INFO	Listening on port 64491
+1621348205136	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621348215567	Marionette	INFO	Stopped listening on port 64491
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621348224556	geckodriver	INFO	Listening on 127.0.0.1:64609
+1621348227628	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilelUGH5j"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621348229542	Marionette	INFO	Listening on port 64617
+1621348229676	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621348275152	Marionette	INFO	Stopped listening on port 64617
+1621351800027	geckodriver	INFO	Listening on 127.0.0.1:64923
+1621351803098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilewnhCJT"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621351804943	Marionette	INFO	Listening on port 64931
+1621351805169	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621351823643	Marionette	INFO	Stopped listening on port 64931
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilewnhCJT\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621351832626	geckodriver	INFO	Listening on 127.0.0.1:65048
+1621351835695	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileg3NymW"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621351837604	Marionette	INFO	Listening on port 65056
+1621351837745	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621351883184	Marionette	INFO	Stopped listening on port 65056
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621355400022	geckodriver	INFO	Listening on 127.0.0.1:65349
+1621355403104	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileevz3sM"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621355404822	Marionette	INFO	Listening on port 65357
+1621355405153	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621355429294	Marionette	INFO	Stopped listening on port 65357
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621355438230	geckodriver	INFO	Listening on 127.0.0.1:65474
+1621355441289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileNRru3t"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621355443166	Marionette	INFO	Listening on port 65482
+1621355443338	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621355467907	Marionette	INFO	Stopped listening on port 65482
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621409400044	geckodriver	INFO	Listening on 127.0.0.1:64408
+1621409403135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileV8W8vJ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621409405798	Marionette	INFO	Listening on port 64418
+1621409406320	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621409431001	Marionette	INFO	Stopped listening on port 64418
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621409439923	geckodriver	INFO	Listening on 127.0.0.1:64535
+1621409442980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilevfIaIg"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621409444700	Marionette	INFO	Listening on port 64543
+1621409445016	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621409490598	Marionette	INFO	Stopped listening on port 64543
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621413000018	geckodriver	INFO	Listening on 127.0.0.1:64898
+1621413003085	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilevs9gcm"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621413004960	Marionette	INFO	Listening on port 64906
+1621413005138	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621413029285	Marionette	INFO	Stopped listening on port 64906
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621413038257	geckodriver	INFO	Listening on 127.0.0.1:65026
+1621413041300	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileulvW8n"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621413043294	Marionette	INFO	Listening on port 65034
+1621413043378	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621413061555	Marionette	INFO	Stopped listening on port 65034
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621416600026	geckodriver	INFO	Listening on 127.0.0.1:65336
+1621416603088	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile6wz4CG"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621416604823	Marionette	INFO	Listening on port 65344
+1621416605154	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621416623519	Marionette	INFO	Stopped listening on port 65344
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621416632450	geckodriver	INFO	Listening on 127.0.0.1:65466
+1621416635519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofiledOd2ZR"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621416637270	Marionette	INFO	Listening on port 65474
+1621416637581	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621416655766	Marionette	INFO	Stopped listening on port 65474
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofiledOd2ZR\protections.sqlite
+1621420200030	geckodriver	INFO	Listening on 127.0.0.1:49383
+1621420203097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileLiI8zW"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621420204807	Marionette	INFO	Listening on port 49391
+1621420205141	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621420229233	Marionette	INFO	Stopped listening on port 49391
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621420238248	geckodriver	INFO	Listening on 127.0.0.1:49508
+1621420241313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilefBio6W"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621420242985	Marionette	INFO	Listening on port 49516
+1621420243370	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621420267674	Marionette	INFO	Stopped listening on port 49516
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621423800024	geckodriver	INFO	Listening on 127.0.0.1:49916
+1621423803078	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileTPUUoR"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621423804780	Marionette	INFO	Listening on port 49924
+1621423805159	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621423815347	Marionette	INFO	Stopped listening on port 49924
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileTPUUoR\protections.sqlite
+1621423824262	geckodriver	INFO	Listening on 127.0.0.1:50100
+1621423827331	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileHAoORA"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621423829121	Marionette	INFO	Listening on port 50108
+1621423829412	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621423834127	Marionette	INFO	Stopped listening on port 50108
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621423843061	geckodriver	INFO	Listening on 127.0.0.1:50224
+1621423846107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileBQHP6V"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621423847936	Marionette	INFO	Listening on port 50233
+1621423848164	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621423872335	Marionette	INFO	Stopped listening on port 50233
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileBQHP6V\protections.sqlite
+1621427400022	geckodriver	INFO	Listening on 127.0.0.1:50539
+1621427403085	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileNak1L3"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621427404959	Marionette	INFO	Listening on port 50547
+1621427405137	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621427410044	Marionette	INFO	Stopped listening on port 50547
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileNak1L3\protections.sqlite
+1621427418975	geckodriver	INFO	Listening on 127.0.0.1:50663
+1621427422239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile8e66Hh"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621427423880	Marionette	INFO	Listening on port 50671
+1621427424282	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621427434592	Marionette	INFO	Stopped listening on port 50671
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621427443507	geckodriver	INFO	Listening on 127.0.0.1:50787
+1621427446580	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileXdqi3A"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621427448210	Marionette	INFO	Listening on port 50798
+1621427448632	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621427467013	Marionette	INFO	Stopped listening on port 50798
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileXdqi3A\protections.sqlite
+1621431000016	geckodriver	INFO	Listening on 127.0.0.1:51072
+1621431003057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilelNnhRu"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621431004894	Marionette	INFO	Listening on port 51080
+1621431005143	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621431023472	Marionette	INFO	Stopped listening on port 51080
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilelNnhRu\protections.sqlite
+1621431032422	geckodriver	INFO	Listening on 127.0.0.1:51196
+1621431035483	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileadtuGy"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621431037162	Marionette	INFO	Listening on port 51204
+1621431037537	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621431055968	Marionette	INFO	Stopped listening on port 51204
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621434600023	geckodriver	INFO	Listening on 127.0.0.1:51506
+1621434603091	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileZf8X36"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621434604728	Marionette	INFO	Listening on port 51514
+1621434605154	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621434623258	Marionette	INFO	Stopped listening on port 51514
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621434632182	geckodriver	INFO	Listening on 127.0.0.1:51633
+1621434635250	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileKHgpHC"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621434636894	Marionette	INFO	Listening on port 51641
+1621434637311	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621434661340	Marionette	INFO	Stopped listening on port 51641
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileKHgpHC\protections.sqlite
+1621438200023	geckodriver	INFO	Listening on 127.0.0.1:51933
+1621438203081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilea76zvJ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621438204957	Marionette	INFO	Listening on port 51941
+1621438205120	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621438210090	Marionette	INFO	Stopped listening on port 51941
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilea76zvJ\protections.sqlite
+1621438219102	geckodriver	INFO	Listening on 127.0.0.1:52058
+1621438222178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileplUcup"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621438224072	Marionette	INFO	Listening on port 52066
+1621438224230	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621438230537	Marionette	INFO	Stopped listening on port 52066
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileplUcup\protections.sqlite
+1621438239751	geckodriver	INFO	Listening on 127.0.0.1:52180
+1621438242824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofiled1vUnl"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621438244645	Marionette	INFO	Listening on port 52188
+1621438244874	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621438263077	Marionette	INFO	Stopped listening on port 52188
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofiled1vUnl\protections.sqlite
+1621441800025	geckodriver	INFO	Listening on 127.0.0.1:52508
+1621441803086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile78n22R"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621441804717	Marionette	INFO	Listening on port 52516
+1621441805154	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621441829486	Marionette	INFO	Stopped listening on port 52516
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621441838454	geckodriver	INFO	Listening on 127.0.0.1:52631
+1621441841506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile3UQgb7"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621441843120	Marionette	INFO	Listening on port 52639
+1621441843557	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621441889062	Marionette	INFO	Stopped listening on port 52639
+1621495800040	geckodriver	INFO	Listening on 127.0.0.1:65411
+1621495803139	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileJdEaJg"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621495805945	Marionette	INFO	Listening on port 65419
+1621495806316	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621495830439	Marionette	INFO	Stopped listening on port 65419
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileJdEaJg\protections.sqlite
+1621495839350	geckodriver	INFO	Listening on 127.0.0.1:49177
+1621495842411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile4OvPwe"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621495844434	Marionette	INFO	Listening on port 49185
+1621495844461	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621495862889	Marionette	INFO	Stopped listening on port 49185
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621499400024	geckodriver	INFO	Listening on 127.0.0.1:49507
+1621499403082	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileFvNjgM"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621499404891	Marionette	INFO	Listening on port 49515
+1621499405152	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621499409956	Marionette	INFO	Stopped listening on port 49515
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileFvNjgM\protections.sqlite
+1621499418892	geckodriver	INFO	Listening on 127.0.0.1:49628
+1621499421957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileFwe5Yy"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621499423861	Marionette	INFO	Listening on port 49636
+1621499424024	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621499448077	Marionette	INFO	Stopped listening on port 49636
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileFwe5Yy\protections.sqlite
+1621499457039	geckodriver	INFO	Listening on 127.0.0.1:49758
+1621499460116	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilealPIxO"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621499461983	Marionette	INFO	Listening on port 49766
+1621499462185	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621499466846	Marionette	INFO	Stopped listening on port 49766
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilealPIxO\protections.sqlite
+1621503000024	geckodriver	INFO	Listening on 127.0.0.1:50204
+1621503003087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileyuRW1J"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621503004820	Marionette	INFO	Listening on port 50212
+1621503005135	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621503015322	Marionette	INFO	Stopped listening on port 50212
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621503024259	geckodriver	INFO	Listening on 127.0.0.1:50328
+1621503027343	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileT4UcPS"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621503029037	Marionette	INFO	Listening on port 50336
+1621503029405	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621503034027	Marionette	INFO	Stopped listening on port 50336
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileT4UcPS\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621503042961	geckodriver	INFO	Listening on 127.0.0.1:50447
+1621503046041	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilevyHOpE"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621503047582	Marionette	INFO	Listening on port 50455
+1621503048099	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621503072125	Marionette	INFO	Stopped listening on port 50455
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621506600024	geckodriver	INFO	Listening on 127.0.0.1:50736
+1621506603091	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilerdviHN"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621506604820	Marionette	INFO	Listening on port 50744
+1621506605147	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621506609919	Marionette	INFO	Stopped listening on port 50744
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilerdviHN\protections.sqlite
+1621506618829	geckodriver	INFO	Listening on 127.0.0.1:50858
+1621506621892	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilej6me3h"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621506623825	Marionette	INFO	Listening on port 50866
+1621506623938	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621506642132	Marionette	INFO	Stopped listening on port 50866
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621506651071	geckodriver	INFO	Listening on 127.0.0.1:50980
+1621506654146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilevIrAm8"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621506655870	Marionette	INFO	Listening on port 50988
+1621506656198	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621506674384	Marionette	INFO	Stopped listening on port 50988
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+[Child 7688, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1621510200026	geckodriver	INFO	Listening on 127.0.0.1:51286
+1621510203087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilegwlGFN"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621510204902	Marionette	INFO	Listening on port 51294
+1621510205141	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621510223417	Marionette	INFO	Stopped listening on port 51294
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621510232356	geckodriver	INFO	Listening on 127.0.0.1:51408
+1621510235425	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileO7NVPX"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621510237287	Marionette	INFO	Listening on port 51416
+1621510237478	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621510264938	Marionette	INFO	Stopped listening on port 51416
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileO7NVPX\protections.sqlite
+1621513800026	geckodriver	INFO	Listening on 127.0.0.1:51716
+1621513803105	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileMtyiEP"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621513804810	Marionette	INFO	Listening on port 51724
+1621513805140	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621513823414	Marionette	INFO	Stopped listening on port 51724
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileMtyiEP\protections.sqlite
+1621513832356	geckodriver	INFO	Listening on 127.0.0.1:51839
+1621513835436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileZkHfX4"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621513837229	Marionette	INFO	Listening on port 51847
+1621513837504	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621513855800	Marionette	INFO	Stopped listening on port 51847
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621517400024	geckodriver	INFO	Listening on 127.0.0.1:52145
+1621517403108	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilehjTbDu"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621517405028	Marionette	INFO	Listening on port 52153
+1621517405149	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621517415505	Marionette	INFO	Stopped listening on port 52153
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621517424444	geckodriver	INFO	Listening on 127.0.0.1:52272
+1621517427514	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileAFVSIq"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621517429347	Marionette	INFO	Listening on port 52280
+1621517429563	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621517453855	Marionette	INFO	Stopped listening on port 52280
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileAFVSIq\protections.sqlite
+1621521000027	geckodriver	INFO	Listening on 127.0.0.1:52588
+1621521003086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileIJ2Muk"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621521004754	Marionette	INFO	Listening on port 52597
+1621521005122	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621521032614	Marionette	INFO	Stopped listening on port 52597
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileIJ2Muk\protections.sqlite
+1621521041519	geckodriver	INFO	Listening on 127.0.0.1:52718
+1621521044584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileravkzR"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621521046268	Marionette	INFO	Listening on port 52726
+1621521046660	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621521064808	Marionette	INFO	Stopped listening on port 52726
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileravkzR\protections.sqlite
+1621524600026	geckodriver	INFO	Listening on 127.0.0.1:53031
+1621524603080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile8CH4ac"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621524604793	Marionette	INFO	Listening on port 53039
+1621524605129	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621524615452	Marionette	INFO	Stopped listening on port 53039
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofile8CH4ac\protections.sqlite
+1621524624395	geckodriver	INFO	Listening on 127.0.0.1:53156
+1621524627457	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilenqHWtM"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621524629087	Marionette	INFO	Listening on port 53166
+1621524629503	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621524647740	Marionette	INFO	Stopped listening on port 53166
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilenqHWtM\protections.sqlite
+1621524656676	geckodriver	INFO	Listening on 127.0.0.1:53282
+1621524659735	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilerXjtH8"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621524661524	Marionette	INFO	Listening on port 53290
+1621524661784	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621524680096	Marionette	INFO	Stopped listening on port 53290
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilerXjtH8\protections.sqlite
+1621528200025	geckodriver	INFO	Listening on 127.0.0.1:53569
+1621528203080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileIDWjJ1"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621528204916	Marionette	INFO	Listening on port 53577
+1621528205139	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621528229236	Marionette	INFO	Stopped listening on port 53577
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621528238153	geckodriver	INFO	Listening on 127.0.0.1:53694
+1621528241210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilemIe54Y"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621528242853	Marionette	INFO	Listening on port 53702
+1621528243258	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621528267378	Marionette	INFO	Stopped listening on port 53702
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621582200047	geckodriver	INFO	Listening on 127.0.0.1:51460
+1621582203114	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileOiixmq"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621582205916	Marionette	INFO	Listening on port 51468
+1621582206284	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621582252192	Marionette	INFO	Stopped listening on port 51468
+[Child 15916, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1621585800016	geckodriver	INFO	Listening on 127.0.0.1:51817
+1621585803080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilethe7CJ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621585804821	Marionette	INFO	Listening on port 51825
+1621585805124	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621585850507	Marionette	INFO	Stopped listening on port 51825
+1621585859489	geckodriver	INFO	Listening on 127.0.0.1:51948
+1621585862537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileWqxsPe"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621585864436	Marionette	INFO	Listening on port 51956
+1621585864602	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621585888718	Marionette	INFO	Stopped listening on port 51956
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621589400027	geckodriver	INFO	Listening on 127.0.0.1:52237
+1621589403083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileEChN6L"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621589404936	Marionette	INFO	Listening on port 52245
+1621589405126	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621589429272	Marionette	INFO	Stopped listening on port 52245
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621589438187	geckodriver	INFO	Listening on 127.0.0.1:52363
+1621589441243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile5vQ8jf"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621589443113	Marionette	INFO	Listening on port 52371
+1621589443297	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621589467735	Marionette	INFO	Stopped listening on port 52371
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621593000030	geckodriver	INFO	Listening on 127.0.0.1:52649
+1621593003086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilems4fuv"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621593004783	Marionette	INFO	Listening on port 52657
+1621593005163	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621593029570	Marionette	INFO	Stopped listening on port 52657
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621593038489	geckodriver	INFO	Listening on 127.0.0.1:52773
+1621593041558	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilejUzngw"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621593043218	Marionette	INFO	Listening on port 52781
+1621593043627	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621593067747	Marionette	INFO	Stopped listening on port 52781
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621596600016	geckodriver	INFO	Listening on 127.0.0.1:53068
+1621596603071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileKvbZFN"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621596604970	Marionette	INFO	Listening on port 53076
+1621596605122	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621596629226	Marionette	INFO	Stopped listening on port 53076
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofileKvbZFN\protections.sqlite
+1621596638164	geckodriver	INFO	Listening on 127.0.0.1:53192
+1621596641233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofiletktEp6"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621596642895	Marionette	INFO	Listening on port 53200
+1621596643292	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621596667500	Marionette	INFO	Stopped listening on port 53200
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofiletktEp6\protections.sqlite
+1621600200041	geckodriver	INFO	Listening on 127.0.0.1:53542
+1621600203101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilemrPErm"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621600204889	Marionette	INFO	Listening on port 53551
+1621600205174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621600250884	Marionette	INFO	Stopped listening on port 53551
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621600260012	geckodriver	INFO	Listening on 127.0.0.1:53674
+1621600263080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofile11lJ3i"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621600265000	Marionette	INFO	Listening on port 53682
+1621600265145	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621600321720	Marionette	INFO	Stopped listening on port 53682
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1621603800032	geckodriver	INFO	Listening on 127.0.0.1:54025
+1621603803064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofileqhrE6i"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621603804784	Marionette	INFO	Listening on port 54033
+1621603805127	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621603810124	Marionette	INFO	Stopped listening on port 54033
+1621603819052	geckodriver	INFO	Listening on 127.0.0.1:54149
+1621603822107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilehDPRDB"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621603823953	Marionette	INFO	Listening on port 54157
+1621603824172	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621603848317	Marionette	INFO	Stopped listening on port 54157
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\canut\AppData\Local\Temp\rust_mozprofilehDPRDB\protections.sqlite
+1621603857242	geckodriver	INFO	Listening on 127.0.0.1:54277
+1621603860325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\canut\\AppData\\Local\\Temp\\rust_mozprofilevv2AQd"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621603861950	Marionette	INFO	Listening on port 54285
+1621603862384	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://e00-expansion.uecdn.es/assets/v1/js/jquery.2.2.1.js line 1 > eval, line 1: ReferenceError: bsn is not defined
+1621603867409	Marionette	INFO	Stopped listening on port 54285
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
