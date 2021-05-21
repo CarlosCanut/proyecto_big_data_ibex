@@ -74,8 +74,8 @@ def stonks():
                 writer.writerows(reduced_values)
 
             # add files to git repo
-            os.system("git add" + "stonks/all_" + date + ".csv")
-            os.system("git add" + "stonks/reduced_" + date + ".csv")
+            os.system("git add" + " stonks/all_" + date + ".csv")
+            os.system("git add" + " stonks/reduced_" + date + ".csv")
 
             driver.quit()
         except:
@@ -93,7 +93,7 @@ stonks()
         if int(hour_now[0]) == 18 and int(hour_now[1]) == minute:
             break"""
 
-os.system('git commit -m "' + str(datetime.datetime.today()) + '"')
+os.system('git commit -m "' + str(datetime.datetime.today())[:10] + '"')
 os.system("git push -u origin master")
 
 
