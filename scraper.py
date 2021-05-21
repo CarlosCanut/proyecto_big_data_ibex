@@ -64,14 +64,14 @@ def stonks():
                 total_values.append(new_row)
                 reduced_values.append( [new_row[0], new_row[1], new_row[5], new_row[6], new_row[9]] )
 
-        #print(date + ".csv")
-        with open(("/home/alumno/Desktop/proyecto_big_data_ibex/stonks/all_" + date + ".csv"), 'w', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerows(total_values)
+            #print(date + ".csv")
+            with open(("/home/alumno/Desktop/proyecto_big_data_ibex/stonks/all_" + date + ".csv"), 'w', newline='') as file:
+                writer = csv.writer(file)
+                writer.writerows(total_values)
 
-        with open(("/home/alumno/Desktop/proyecto_big_data_ibex/stonks/reduced_" + date + ".csv"), 'w', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerows(reduced_values)
+            with open(("/home/alumno/Desktop/proyecto_big_data_ibex/stonks/reduced_" + date + ".csv"), 'w', newline='') as file:
+                writer = csv.writer(file)
+                writer.writerows(reduced_values)
 
             # # add files to git repo
             # os.system("git add" + " stonks/all_" + date + ".csv")
