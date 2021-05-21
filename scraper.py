@@ -94,7 +94,7 @@ stonks()
             break"""
 
 os.system('git commit -m "' + str(datetime.datetime.today())[:10] + '"')
-os.system("git push -u origin master")
+os.system("git push")
 
 
 """for hour in range(10):
