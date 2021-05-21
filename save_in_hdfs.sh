@@ -1,9 +1,9 @@
 start-dfs.sh
 git pull
 
-read -p "¿Es esta tu primera vez o simplemente estas actualizando los datos? (yes : primera vez, no : actualizar datos)" primera_ejecucion
+read -p "¿Quieres cargar todos los datos a hdfs o solo actualizar nuevos datos? (total : todos los datos (.csv), new : actualizar nuevos datos (.csv))" primera_ejecucion
 
-if $primera_ejecucion == 'yes'
+if [ $primera_ejecucion == 'total' ]
 then
 	local_stonks=$(ls stonks/)
 else
@@ -12,12 +12,18 @@ fi
 
 
 for stonk in $local_stonks; do
-	if hdfs dfs -test -e /stonks/$stonk
+	if hdfs dfs -test -e $stonk
 	then
 		echo already exists	
 	else
-		hdfs dfs -put stonks/$stonk /stonks/$stonk
-		echo file added
+		if [ $primera_ejecucion == 'total' ]
+		then
+			hdfs dfs -put stonks/$stonk /$stonk
+			echo file added
+		else
+			hdfs dfs -put $stonk /$stonk
+			echo file added
+		fi
 	fi
 done
 
