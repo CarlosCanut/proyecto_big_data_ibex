@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.firefox.options import Options
 import time
-import pprint
 import datetime
 import csv
 import os
@@ -30,6 +29,10 @@ def stonks():
         day = today[8:10]
         hour = today[11:13]
         minute = today[14:16]
+
+        if minute != "30" and hour not in ['9','10','11','12','13','14','15','16','17','18']:
+            return
+
         date = year + "_" + month + "_" + day + "_" + hour + "_" + minute
 
         # data from all session
@@ -86,13 +89,15 @@ hours = [9,10,11,12,13,14,15,16,17,18]
 minute = 30
 
 stonks()
-"""while True:
+while True:
     hour_now = str(datetime.datetime.today()).split(" ")[1].split(":")
     if int(hour_now[0]) in hours and int(hour_now[1]) == minute:
         stonks()
+        os.system('git add -A && git commit -m "' + str(datetime.datetime.today())[:10] + '"')
+        os.system("git push")
         if int(hour_now[0]) == 18 and int(hour_now[1]) == minute:
-            break"""
+            break
 
-os.system('git add -A && git commit -m "' + str(datetime.datetime.today())[:10] + '"')
-os.system("git push")
+# os.system('git add -A && git commit -m "' + str(datetime.datetime.today())[:10] + '"')
+# os.system("git push")
 
