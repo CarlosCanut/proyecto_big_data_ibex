@@ -88,7 +88,6 @@ def stonks():
 hours = [9,10,11,12,13,14,15,16,17,18]
 minute = 30
 
-stonks()
 while True:
     hour_now = str(datetime.datetime.today()).split(" ")[1].split(":")
     if int(hour_now[0]) in hours and int(hour_now[1]) == minute:
