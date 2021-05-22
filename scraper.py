@@ -93,10 +93,11 @@ while True:
     hour_now = str(datetime.datetime.today()).split(" ")[1].split(":")
     if int(hour_now[0]) in hours and int(hour_now[1]) == minute:
         stonks()
-        os.system('git add -A && git commit -m "' + str(datetime.datetime.today())[:10] + '"')
-        os.system("git push")
         if int(hour_now[0]) == 18 and int(hour_now[1]) == minute:
             break
+
+os.system('git add -A && git commit -m "' + str(datetime.datetime.today())[:10] + '"')
+os.system("git push")
 
 # os.system('git add -A && git commit -m "' + str(datetime.datetime.today())[:10] + '"')
 # os.system("git push")
