@@ -29,3 +29,14 @@
 		- Funcionalidad que use joins
 		- Funcionalidad que use joins
 		- Funcionalidad que use joins
+
+
+
+
+
+
+
+
+
+
+
