@@ -5,9 +5,31 @@ import time
 import datetime
 import csv
 import os
+import pandas as pd
 
 
 start_url = "https://www.expansion.com/mercados/cotizaciones/indices/ibex35_I.IB.html"
+weekDays = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+
+
+def save_file(file_name):
+    today = datetime.date.today()
+    today = today.strftime('%Y-%m-%d')
+    dt = datetime.datetime.strptime(today, '%Y-%m-%d')
+    # primer dia de la semana
+    start = dt - datetime.timedelta(days=dt.weekday())
+    first_day = start.strftime('%d')
+    month = start.strftime('%m')
+    year = start.strftime('%Y')
+    day_name = weekDays[start.weekday()]
+    # stonks/year/month/first_day/day_name
+    
+
+    # último día de la semana
+    #end = start + datetime.timedelta(days=6)
+    #end = end.strftime('%Y_%m_%d')
+
+
 
 ###############################################################
 #   ->
@@ -68,11 +90,11 @@ def stonks():
                 reduced_values.append( [new_row[0], new_row[1], new_row[5], new_row[6], new_row[9]] )
 
             #print(date + ".csv")
-            with open(("stonks/all_" + date + ".csv"), 'w', newline='') as file:
+            with open(("stonks/temp/all_" + date + ".csv"), 'w', newline='') as file:
                 writer = csv.writer(file)
                 writer.writerows(total_values)
 
-            with open(("stonks/reduced_" + date + ".csv"), 'w', newline='') as file:
+            with open(("stonks/temp/reduced_" + date + ".csv"), 'w', newline='') as file:
                 writer = csv.writer(file)
                 writer.writerows(reduced_values)
 
@@ -85,6 +107,11 @@ def stonks():
             driver.quit()
 ###############################################################
 
+today = str(datetime.datetime.today())
+day = today.strftime('%d')
+month = today.strftime('%m')
+year = today.strftime('%Y')
+
 hours = [9,10,11,12,13,14,15,16,17,18]
 minute = 30
 
@@ -94,6 +121,17 @@ while True:
         stonks()
         if int(hour_now[0]) == 18 and int(hour_now[1]) == minute:
             break
+
+# creates daily file
+for hour in ["09_30", "10_30", "11_30", "12_30", "13_30", "14_30", "15_30", "16_30", "17_30", "18_30"]:
+    hour_df = pd.read_csv("reduced_"+ year + "_" + month + "_" + day + "_" + hour + ".csv")
+    hour_df.columns = ['accion', 'ultima_cotizacion', 'max_sesion', 'min_sesion', 'ultima_actualizacion']
+    hour_df['fecha'] = str(year+"/"+ month + "/" + day )
+    hour_df['hora'] = str(hour)
+    #print(hour_df)
+    day_df = day_df.append(hour_df, ignore_index=True)
+
+day_df.to_csv("stonks/" + year + "_" + month + "_" + day + ".csv", index=False, header=False)
 
 os.system('git add -A && git commit -m "' + str(datetime.datetime.today())[:10] + '"')
 os.system("git push")
