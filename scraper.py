@@ -124,7 +124,7 @@ while True:
 
 # creates daily file
 for hour in ["09_30", "10_30", "11_30", "12_30", "13_30", "14_30", "15_30", "16_30", "17_30", "18_30"]:
-    hour_df = pd.read_csv("reduced_"+ year + "_" + month + "_" + day + "_" + hour + ".csv")
+    hour_df = pd.read_csv("stonks/temp/reduced_"+ year + "_" + month + "_" + day + "_" + hour + ".csv")
     hour_df.columns = ['accion', 'ultima_cotizacion', 'max_sesion', 'min_sesion', 'ultima_actualizacion']
     hour_df['fecha'] = str(year+"/"+ month + "/" + day )
     hour_df['hora'] = str(hour)

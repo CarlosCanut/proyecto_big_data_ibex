@@ -5,7 +5,7 @@ read -p "¿Quieres cargar todos los datos a hdfs o solo actualizar nuevos datos?
 
 if [ $primera_ejecucion == 'total' ]
 then
-	local_stonks=$(ls stonks/)
+	local_stonks=$(ls -p stonks | grep -v /)
 else
 	local_stonks=$(git diff --name-only HEAD^1..HEAD | awk -F" " '{split($1,a,"."); if(a[2] == "csv") print($1)}')
 fi
