@@ -107,7 +107,7 @@ def stonks():
             driver.quit()
 ###############################################################
 
-today = str(datetime.datetime.today())
+today = (datetime.datetime.today())
 day = today.strftime('%d')
 month = today.strftime('%m')
 year = today.strftime('%Y')
