@@ -18,7 +18,7 @@ def save_file(file_name):
 # open files
 year = "2021"
 
-for day in ['04_21', '05_18', '05_19', '05_20', '05_21', '05_25', '05_26', '05_27', '05_28', '05_31']:
+for day in ['04_21', '05_18', '05_19', '05_20', '05_21', '05_25', '05_26', '05_27', '05_28', '05_31', '06_01']:
     day_df = pd.DataFrame(columns=['accion', 'ultima_cotizacion', 'max_sesion', 'min_sesion', 'ultima_actualizacion', 'fecha', 'hora'])
     for hour in ["09_30", "10_30", "11_30", "12_30", "13_30", "14_30", "15_30", "16_30", "17_30", "18_30"]:
         try:
