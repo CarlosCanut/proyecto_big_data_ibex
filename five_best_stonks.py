@@ -14,14 +14,13 @@ class FiveBestStonks(MRJob):
         dt = datetime.datetime.strptime(today_str, '%Y/%m/%d')
 
         first_week_day = dt - datetime.timedelta(days=dt.weekday())
-        first_month_day = first_week_day.strftime('%Y/%m/01')
+        first_month_day = dt.strftime('%Y/%m/01')
         first_week_day = first_week_day.strftime('%Y/%m/%d')
 
 
         if first_month_day <= dia:
             # ("month", accion, primer_dia_mes), (ultima_cotizacion, fecha, hora)
             yield(("month",stonk, first_month_day),(linea[1], linea[5], linea[6]))
-            
         if first_week_day <= dia:
             # ("week", accion, primer_dia_semana), (ultima_cotizacion, fecha, hora)
             yield(("week", stonk, first_week_day), (linea[1], linea[5], linea[6]))

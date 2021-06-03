@@ -15,7 +15,7 @@ class StonkLastValue(MRJob):
         dt = datetime.datetime.strptime(today_str, '%Y/%m/%d')
 
         first_week_day = dt - datetime.timedelta(days=dt.weekday())
-        first_month_day = first_week_day.strftime('%Y/%m/01')
+        first_month_day = dt.strftime('%Y/%m/01')
         first_week_day = first_week_day.strftime('%Y/%m/%d')
         one_hour_ago = today - datetime.timedelta(hours=1)
         one_hour_ago = one_hour_ago.strftime('%Y/%m/%d/%H/%M')
