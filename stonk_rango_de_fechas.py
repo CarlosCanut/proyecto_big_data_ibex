@@ -53,11 +53,11 @@ class StonkRangoDeFechas(MRJob):
         if val_min == 0 or val_inicial == 0:
             decremento = 0
         else:
-            decremento = val_inicial / val_min
+            decremento = (val_min-val_inicial)/val_inicial*100
         if val_max == 0 or val_inicial == 0:
             incremento = 0
         else:
-            incremento = val_inicial / val_max
+            incremento = (val_max-val_inicial)/val_inicial*100
         
         # (accion), (accion, minimo, maximo, decremento, incremento)
         yield(key ,(val_min, val_max, decremento, incremento))

@@ -57,17 +57,17 @@ class FiveBestStonks(MRJob):
                 ultima_hora = hora
                 val_final = ultima_cot
        
-        crecimiento = val_final - val_inicial
-        # ("week", primer_dia_semana), (accion, crecimiento)
-        # ("month", primer_dia_mes), (accion, crecimiento)
-        yield((key[0], key[2]) ,(key[1], crecimiento))
+        decrecimiento = val_inicial - val_final
+        # ("week", primer_dia_semana), (accion, decrecimiento)
+        # ("month", primer_dia_mes), (accion, decrecimiento)
+        yield((key[0], key[2]) ,(key[1], decrecimiento))
 
 
 
     # ->
-    # ("month", primer_dia_mes), (accion, crecimiento) | ("week", primer_dia_semana), (accion, crecimiento)
+    # ("month", primer_dia_mes), (accion, decrecimiento) | ("week", primer_dia_semana), (accion, decrecimiento)
     # ->
-    def reducer_2(self, total, values):
+    def reducer_2(self, key, values):
 
         # -----------------------------------------
         # ----------------- TO-DO -----------------
@@ -76,15 +76,14 @@ class FiveBestStonks(MRJob):
         total_stonks = {}
         for stonk in values:
             total_stonks[stonk[0]] = stonk[1]
-        sorted_best_total_stonks = dict(sorted(total_stonks.items(), key=lambda item: item[1]))
-        # best_stonks = list(sorted_best_total_stonks)[:5]
+        sorted_worst_total_stonks = dict(sorted(total_stonks.items(), key=lambda item: item[1]))
 
-        best_stonks = {}
-        for x in list(reversed(list(sorted_best_total_stonks)))[:5]:
-            best_stonks[x] = sorted_best_total_stonks[x]
+        worst_stonks = {}
+        for x in list(reversed(list(sorted_worst_total_stonks)))[:5]:
+            worst_stonks[x] = sorted_worst_total_stonks[x]
 
         # ("week", primer_dia_semana), ({"accion": "valor", ... })
-        yield(total, best_stonks)
+        yield(key, worst_stonks)
 
         # ("month", primer_dia_mes), ({"accion": "valor", ... })
 
