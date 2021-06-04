@@ -57,7 +57,7 @@ class FiveBestStonks(MRJob):
                 ultima_hora = hora
                 val_final = ultima_cot
        
-        crecimiento = val_final - val_inicial
+        crecimiento = (((val_final - val_inicial)/val_inicial)*100)
         # ("week", primer_dia_semana), (accion, crecimiento)
         # ("month", primer_dia_mes), (accion, crecimiento)
         yield((key[0], key[2]) ,(key[1], crecimiento))

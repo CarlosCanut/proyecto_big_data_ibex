@@ -3,28 +3,21 @@ from mrjob.step import MRStep
 import datetime
 from itertools import islice
 
-class FiveBestStonks(MRJob):
+class StonksByDateAndPercentage(MRJob):
     def mapper(self, _, line):
         linea = line.split(',')
         # primer dia de la semana
+        inicio_rango = datetime.datetime(2021,5,25)
+        fin_rango = datetime.datetime(2021,6,2)
+
         stonk = linea[0]
-        dia = linea[5]
-        # ultima semana y mes
-        today = datetime.datetime.today()
-        today_str = today.strftime('%Y/%m/%d')
-        dt = datetime.datetime.strptime(today_str, '%Y/%m/%d')
+        dia = datetime.datetime.strptime(linea[5], '%Y/%m/%d')
 
-        first_week_day = dt - datetime.timedelta(days=dt.weekday())
-        first_month_day = dt.strftime('%Y/%m/01')
-        first_week_day = first_week_day.strftime('%Y/%m/%d')
-
-
-        if first_month_day <= dia:
-            # ("month", accion, primer_dia_mes), (ultima_cotizacion, fecha, hora)
-            yield(("month",stonk, first_month_day),(linea[1], linea[5], linea[6]))
-        if first_week_day <= dia:
-            # ("week", accion, primer_dia_semana), (ultima_cotizacion, fecha, hora)
-            yield(("week", stonk, first_week_day), (linea[1], linea[5], linea[6]))
+        inicio_rango_str = inicio_rango.strftime('%Y/%m/%d')
+        fin_rango_str = fin_rango.strftime('%Y/%m/%d')
+        if inicio_rango < dia and fin_rango >= dia:
+            # ("range", accion, inicio_rango, fin_rango), (ultima_cotizacion, fecha, hora)
+            yield(("range",stonk, inicio_rango_str, fin_rango_str),(linea[1], linea[5], linea[6]))
 
 
 
@@ -57,17 +50,17 @@ class FiveBestStonks(MRJob):
                 ultima_hora = hora
                 val_final = ultima_cot
        
-        decremento = ((val_final - val_inicial)/val_inicial)*100
-        # ("week", primer_dia_semana), (accion, decremento)
-        # ("month", primer_dia_mes), (accion, decremento)
-        yield((key[0], key[2]) ,(key[1], decremento))
+        crecimiento = (((val_final - val_inicial)/val_inicial)*100)
+        if crecimiento >= 4:
+            # ("range", inicio_rango, fin_rango), (accion, crecimiento)
+            yield((key[0], key[2], key[3]) ,(key[1], crecimiento))
 
 
 
     # ->
-    # ("month", primer_dia_mes), (accion, decremento) | ("week", primer_dia_semana), (accion, decrecimiento)
+    # ("range", inicio_rango, fin_rango), (accion, crecimiento)
     # ->
-    def reducer_2(self, key, values):
+    def reducer_2(self, total, values):
 
         # -----------------------------------------
         # ----------------- TO-DO -----------------
@@ -76,17 +69,15 @@ class FiveBestStonks(MRJob):
         total_stonks = {}
         for stonk in values:
             total_stonks[stonk[0]] = stonk[1]
-        sorted_worst_total_stonks = dict(sorted(total_stonks.items(), key=lambda item: item[1]))
+        sorted_best_total_stonks = dict(sorted(total_stonks.items(), key=lambda item: item[1]))
+        # best_stonks = list(sorted_best_total_stonks)[:5]
 
-        worst_stonks = {}
-        for x in list(sorted_worst_total_stonks)[:5]:
-            worst_stonks[x] = sorted_worst_total_stonks[x]
+        best_stonks = {}
+        for x in list(reversed(list(sorted_best_total_stonks))):
+            best_stonks[x] = sorted_best_total_stonks[x]
 
-        # ("week", primer_dia_semana), ({"accion": "valor", ... })
-        yield(key, worst_stonks)
-
-        # ("month", primer_dia_mes), ({"accion": "valor", ... })
-
+        # ("range", inicio_rango, fin_rango), ({"accion": "valor", ... })
+        yield(total, best_stonks)
 
 
     def steps(self):
@@ -99,7 +90,7 @@ class FiveBestStonks(MRJob):
         
 
 if __name__ == '__main__':
-    FiveBestStonks.run()
+    StonksByDateAndPercentage.run()
 
 
 
