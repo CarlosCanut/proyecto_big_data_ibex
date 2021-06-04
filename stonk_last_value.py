@@ -3,8 +3,19 @@ from mrjob.step import MRStep
 import datetime
 
 class StonkLastValue(MRJob):
+
+    def configure_args(self):
+        super(StonkLastValue, self).configure_args()
+        self.add_passthru_arg('--accion', default='IBERDROLA', help='accion de la que extraer los datos')
+
     def mapper(self, _, line):
         linea = line.split(',')
+        if linea[1] == self.options.accion:
+            stonk_requested = linea[1]
+        elif linea[2] == self.options.accion:
+            stonk_requested = linea[2]
+        else:
+            stonk_requested = "IBERDROLA"
         # primer dia de la semana
         stonk = linea[0]
         dia = linea[5]
@@ -20,7 +31,6 @@ class StonkLastValue(MRJob):
         one_hour_ago = today - datetime.timedelta(hours=1)
         one_hour_ago = one_hour_ago.strftime('%Y/%m/%d/%H/%M')
         hora_de_registro = dia + linea[6].split('_')[0] + "/" + linea[6].split('_')[1]
-        stonk_requested = "IBERDROLA"
 
 
         if stonk_requested == stonk and first_month_day <= dia:
