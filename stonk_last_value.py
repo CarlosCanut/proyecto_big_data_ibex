@@ -46,8 +46,8 @@ class StonkLastValue(MRJob):
         val_inicial = 0
 
         # min , max
-        val_min = 0
-        val_max = 0
+        val_min = 999
+        val_max = -999
 
         # valores finales de la semana
         ultima_fecha = datetime.datetime(1999,1,1)
