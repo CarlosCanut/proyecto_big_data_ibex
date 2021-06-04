@@ -44,5 +44,6 @@ else
         echo "La fecha de inicio debe ser menor que la fecha final"
 fi
 
+
 python $script_name -r hadoop $path_list --accion $accion --output-dir $output_path
 

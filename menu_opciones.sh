@@ -107,7 +107,7 @@ do
 	    read -p "Introduce el nombre de la accion a analizar:   `echo $'\n> '`" stonk_5
 	    fecha_inicio=$(date --date="1 month ago" +"%Y%m%d")
 	    fecha_final=$(date --date="today" +"%Y%m%d")
-	    ./lanzar_script_accion.sh -s $fecha_inicio -e $fecha_final -a "stonk_last_value.py" -o "/resultados/min_max_ultima_hora_semana_mes" -k "TELEFONICA"
+	    ./lanzar_script_accion.sh -s $fecha_inicio -e $fecha_final -a "stonk_last_value.py" -o "/resultados/min_max_ultima_hora_semana_mes" -k "IBERDROLA"
 	    clear
 	    echo ""
 	    echo "		####################################################"
