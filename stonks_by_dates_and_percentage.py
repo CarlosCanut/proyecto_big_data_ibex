@@ -4,11 +4,21 @@ import datetime
 from itertools import islice
 
 class StonksByDateAndPercentage(MRJob):
+
+    def configure_args(self):
+        super(StonksByDateAndPercentage,self).configure_args()
+        self.add_passthru_arg('--percentage',default='2')
+        self.add_passthru_arg('--inicio',default='20210526')
+        self.add_passthru_arg('--fin',default='20210604')
+
     def mapper(self, _, line):
         linea = line.split(',')
+        porcentaje = self.options.percentage
         # primer dia de la semana
-        inicio_rango = datetime.datetime(2021,5,25)
-        fin_rango = datetime.datetime(2021,6,2)
+        inicio = self.options.inicio
+        fin = self.options.fin
+        inicio_rango = datetime.datetime(int(inicio[:4]), int(inicio[4:6]), int(inicio[6:]))
+        fin_rango = datetime.datetime(int(fin[:4]),int(fin[4:6]),int(fin[6:]))
 
         stonk = linea[0]
         dia = datetime.datetime.strptime(linea[5], '%Y/%m/%d')
@@ -16,8 +26,8 @@ class StonksByDateAndPercentage(MRJob):
         inicio_rango_str = inicio_rango.strftime('%Y/%m/%d')
         fin_rango_str = fin_rango.strftime('%Y/%m/%d')
         if inicio_rango < dia and fin_rango >= dia:
-            # ("range", accion, inicio_rango, fin_rango), (ultima_cotizacion, fecha, hora)
-            yield(("range",stonk, inicio_rango_str, fin_rango_str),(linea[1], linea[5], linea[6]))
+            # ("range", accion, inicio_rango, fin_rango), (ultima_cotizacion, fecha, hora, porcentaje)
+            yield(("range",stonk, inicio_rango_str, fin_rango_str),(linea[1], linea[5], linea[6], porcentaje))
 
 
 
@@ -38,6 +48,7 @@ class StonksByDateAndPercentage(MRJob):
         val_final = 0
 
         for value in values:
+            porcentaje = int(value[3])
             ultima_cot = float(value[0])
             fecha = datetime.datetime(int(value[1].split('/')[0]),  int(value[1].split('/')[1]), int(value[1].split('/')[2]))
             hora = value[2].split('_')[0]
@@ -51,7 +62,7 @@ class StonksByDateAndPercentage(MRJob):
                 val_final = ultima_cot
        
         crecimiento = (((val_final - val_inicial)/val_inicial)*100)
-        if crecimiento >= 4:
+        if crecimiento >= porcentaje:
             # ("range", inicio_rango, fin_rango), (accion, crecimiento)
             yield((key[0], key[2], key[3]) ,(key[1], crecimiento))
 
@@ -61,10 +72,6 @@ class StonksByDateAndPercentage(MRJob):
     # ("range", inicio_rango, fin_rango), (accion, crecimiento)
     # ->
     def reducer_2(self, total, values):
-
-        # -----------------------------------------
-        # ----------------- TO-DO -----------------
-        # -----------------------------------------
 
         total_stonks = {}
         for stonk in values:
@@ -86,7 +93,6 @@ class StonksByDateAndPercentage(MRJob):
                 reducer = self.reducer),
             MRStep(reducer = self.reducer_2)
         ]
-
         
 
 if __name__ == '__main__':

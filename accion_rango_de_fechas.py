@@ -3,6 +3,13 @@ from mrjob.step import MRStep
 import datetime
 
 class StonkRangoDeFechas(MRJob):
+
+    def configure_args(self):
+        super(StonkRangoDeFechas,self).configure_args()
+        self.add_passthru_arg('--accion',default='IBERDROLA')
+        self.add_passthru_arg('--inicio', default='2021/05/26')
+        self.add_passthru_arg('--fin', default='2021/06/04')
+
     def mapper(self, _, line):
         linea = line.split(',')
         # filtra solo datos del rango pedido
@@ -10,9 +17,9 @@ class StonkRangoDeFechas(MRJob):
         stonk = linea[0]
         
         # valores buscados
-        inicio_rango = datetime.datetime(2021,5,20)
-        fin_rango = datetime.datetime(2021,5,30)
-        stonk_buscado = "INDITEX"
+        inicio_rango = datetime.datetime.strptime(self.options.inicio, '%Y/%m/%d')
+        fin_rango = datetime.datetime.strptime(self.options.fin, '%Y/%m/%d')
+        stonk_buscado = self.options.accion
         if inicio_rango < dia and fin_rango >= dia and stonk_buscado == stonk:
             yield((linea[0]),(linea[5], linea[6], linea[1], linea[2], linea[3]))
         
@@ -53,13 +60,13 @@ class StonkRangoDeFechas(MRJob):
         if val_min == 0 or val_inicial == 0:
             decremento = 0
         else:
-            decremento = (val_min-val_inicial)/val_inicial*100
+            decremento = (((val_min-val_inicial)/val_inicial)*100)
         if val_max == 0 or val_inicial == 0:
             incremento = 0
         else:
-            incremento = (val_max-val_inicial)/val_inicial*100
+            incremento = (((val_max-val_inicial)/val_inicial)*100)
         
-        # (accion), (accion, minimo, maximo, decremento, incremento)
+        # (accion), (minimo, maximo, decremento, incremento)
         yield(key ,(val_min, val_max, decremento, incremento))
 
 
@@ -67,9 +74,10 @@ class StonkRangoDeFechas(MRJob):
     def reducer_2(self, key, values):
         month_stonks = []
         for value in values:
-            month_stonks.append([value[0], value[1], value[2], value[3], value[4]])
-        # (primer_dia_del_mes), (list<accion, valor_inicial, valor_final, minimo, maximo>)
+            month_stonks.append([value[0], value[1], value[2], value[3]])
+        # (primer_dia_del_mes), (list<valor_inicial, valor_final, minimo, maximo>)
         yield(key, month_stonks)
+
 
 
 

@@ -15,6 +15,8 @@ class StonkLastValue(MRJob):
         # primer dia de la semana
         stonk = linea[0]
         dia = linea[5]
+        hora = linea[6]
+        dia_hora = dia + "/" + hora.split('_')[0] + "/" + hora.split('_')[1]
         # ultima hora, semana y mes
         today = datetime.datetime.today()
         today_str = today.strftime('%Y/%m/%d')
@@ -27,7 +29,44 @@ class StonkLastValue(MRJob):
         one_hour_ago = today - datetime.timedelta(hours=1)
         one_hour_ago = one_hour_ago.strftime('%Y/%m/%d/%H/%M')
         hora_de_registro = dia + linea[6].split('_')[0] + "/" + linea[6].split('_')[1]
+        # ultima hora de registro
+        now = datetime.datetime.now()
+        now = now.strftime("%H:%M")
 
+        def get_last_friday():
+            current_time = datetime.datetime.now()
+            last_friday = (current_time - datetime.timedelta(days=current_time.weekday()) + datetime.timedelta(days=4, weeks=-1))
+            last_friday_at_18 = datetime.datetime.combine(last_friday, datetime.time(18,30))
+            # if today is Friday
+            one_week = datetime.timedelta(weeks=1)
+            if current_time - last_friday_at_18 >= one_week:
+                last_friday_at_18 += one_week
+            return last_friday_at_18
+
+        week_days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+        n_week_days = [0,1,2,3,4]
+        week_day = today.weekday()
+        week_day = week_day - 1
+        week_day = week_days[week_day] if week_day in n_week_days else "Friday"
+
+        if 9 < int(now.split(':')[0]) <= 18  and int(now.split(':')[1]) < 30 and week_day in week_days:
+            last_hour = str(str(int(now.split(':')[0]) - 1) +"/30")
+        elif 9 == int(now.split(':')[0]) and int(now.split(':')) < 30 and week_day in week_days:
+            last_hour = "18/30"
+        elif 19 < int(now.split(':')[0]) < 9 and week_day in week_days:
+            last_hour = "18/30"
+        elif week_day not in week_days:
+            last_hour = "18/30"
+    
+        if week_day == "Friday" or week_day not in week_days:
+            last_day = get_last_friday() 
+            last_day = last_day.strftime('%Y/%m/%d/')
+            last_day = str(last_day) + "18/30"
+        else:
+            last_day = today.strftime('%Y/%m/%d/')
+            last_day = str(last_day) + str(last_hour)
+
+        
 
         if stonk_requested == stonk and first_month_day <= dia:
             # (accion, primer_dia_del_mes), (fecha, hora, ultima_cotizacion, max_sesion, min_sesion)
@@ -38,6 +77,8 @@ class StonkLastValue(MRJob):
         if stonk_requested == stonk and hora_de_registro > one_hour_ago:
             # (accion, ultima_hora), (fecha, hora, ultima_cotizacion, max_sesion, min_sesion)
             yield((stonk, one_hour_ago), (linea[5], linea[6], linea[1], linea[2], linea[3]))
+        elif stonk_requested == stonk and last_day == dia_hora:
+            yield((stonk, last_day), (linea[5], linea[6], linea[1], linea[2], linea[3]))
 
     def reducer(self, key, values):
         # valores iniciales de la semana
