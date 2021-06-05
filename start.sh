@@ -25,7 +25,8 @@ options=(1 "Actualizar los datos de hdfs." off
          5 "Dado el nombre de una acción, recuperar su valor mínimo y máximo de cotización de la última hora, semana y mes." off
 	 6 "Mostrar las 5 acciones que más han subido en la última semana y último mes." off
 	 7 "Mostrar las 5 acciones que más han bajado en la última semana y último mes." off 
-	 8 "Dado un porcentaje y un rango de fechas, mostrar las acciones que han tenido un incremento de este porcentaje durante este período." off)
+	 8 "Dado un porcentaje y un rango de fechas, mostrar las acciones que han tenido un incremento de este porcentaje durante este período." off
+	 9 "Join junto con el valor de PER y BPA del incremento y decremento de una accion en un rango de fechas." off)
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 clear
 for choice in $choices
@@ -172,6 +173,25 @@ do
 	    echo "		#############################################################################"
 	    echo ""
 	    echo $(hdfs dfs -cat /resultados/accion_porcentaje_rango/*) 
+            ;;
+        9)
+	    echo ""
+	    echo ""
+	    echo "		##########################################################################################################"
+	    echo "		########  - Join Incremento/Decremento de acción y rango de fechas junto con valor de PER y BPA: #########"
+	    echo "		##########################################################################################################"
+	    echo ""
+	    read -p "Introduce el nombre de la accion a analizar:   `echo $'\n> '`" stonk_9
+	    read -p "El inicio del rango de fechas con formato %Y%m%d (ej. 20210526): `echo $'\n> '`" inicio_rango_9
+	    read -p "El final del rango de fechas con formato %Y%m%d (ej. 20210526): `echo $'\n> '`" fin_rango_9
+	    ./lanzar_script_incremento_decremento.sh -s $inicio_rango_9 -e $fin_rango_9 -a "join_rango_de_fechas_per.py" -o "/resultados/join_incremento_decremento_accion" -k $stonk_9
+	    clear
+	    echo ""
+	    echo "		##########################################################################################################"
+	    echo "		########  - Join Incremento/Decremento de acción y rango de fechas junto con valor de PER y BPA: #########"
+	    echo "		##########################################################################################################"
+	    echo ""
+	    echo $(hdfs dfs -cat /resultados/join_incremento_decremento_accion/part*) 
             ;;
     esac
 done
