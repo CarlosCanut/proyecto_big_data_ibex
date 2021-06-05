@@ -7,18 +7,18 @@ class StonkRangoDeFechas(MRJob):
     def configure_args(self):
         super(StonkRangoDeFechas,self).configure_args()
         self.add_passthru_arg('--accion',default='IBERDROLA')
-        self.add_passthru_arg('--inicio', default='2021/05/26')
-        self.add_passthru_arg('--fin', default='2021/06/04')
+        self.add_passthru_arg('--inicio', default='20210526')
+        self.add_passthru_arg('--fin', default='20210604')
 
     def mapper(self, _, line):
         linea = line.split(',')
         # filtra solo datos del rango pedido
-        dia = datetime.datetime.strptime(linea[5], '%Y/%m/%d')
+        dia = datetime.datetime.strptime(str(linea[5].split('/')[0])+str(linea[5].split('/')[1])+str(linea[5].split('/')[2]), '%Y%m%d')
         stonk = linea[0]
         
         # valores buscados
-        inicio_rango = datetime.datetime.strptime(self.options.inicio, '%Y/%m/%d')
-        fin_rango = datetime.datetime.strptime(self.options.fin, '%Y/%m/%d')
+        inicio_rango = datetime.datetime.strptime(self.options.inicio, '%Y%m%d')
+        fin_rango = datetime.datetime.strptime(self.options.fin, '%Y%m%d')
         stonk_buscado = self.options.accion
         if inicio_rango < dia and fin_rango >= dia and stonk_buscado == stonk:
             yield((linea[0]),(linea[5], linea[6], linea[1], linea[2], linea[3]))

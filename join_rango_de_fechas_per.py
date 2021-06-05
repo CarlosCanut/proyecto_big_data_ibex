@@ -7,8 +7,8 @@ class JoinStonkRangoDeFechas(MRJob):
     def configure_args(self):
         super(JoinStonkRangoDeFechas,self).configure_args()
         self.add_passthru_arg('--accion',default='IBERDROLA')
-        self.add_passthru_arg('--inicio', default='2021/05/26')
-        self.add_passthru_arg('--fin', default='2021/06/04')
+        self.add_passthru_arg('--inicio', default='20210526')
+        self.add_passthru_arg('--fin', default='20210604')
 
     def mapper(self, _, line):
         linea = line.split(',')
@@ -20,12 +20,12 @@ class JoinStonkRangoDeFechas(MRJob):
                 yield((linea[1]),(linea[0],linea[11],linea[10],linea[9],linea[8]))
         else:
             # filtra solo datos del rango pedido
-            dia = datetime.datetime.strptime(linea[5], '%Y/%m/%d')
+            dia = datetime.datetime.strptime(str(linea[5].split('/')[0])+str(linea[5].split('/')[1])+str(linea[5].split('/')[2]) , '%Y%m%d')
             stonk = linea[0]
             
             # valores buscados
-            inicio_rango = datetime.datetime.strptime(self.options.inicio, '%Y/%m/%d')
-            fin_rango = datetime.datetime.strptime(self.options.fin, '%Y/%m/%d')
+            inicio_rango = datetime.datetime.strptime(self.options.inicio, '%Y%m%d')
+            fin_rango = datetime.datetime.strptime(self.options.fin, '%Y%m%d')
             if inicio_rango < dia and fin_rango >= dia and stonk_buscado == stonk:
                 yield((linea[0]),(linea[5], linea[6], linea[1], linea[2], linea[3]))
         
@@ -55,7 +55,7 @@ class JoinStonkRangoDeFechas(MRJob):
                 ultima_cot = float(value[2])
                 max_sesion = float(value[3])
                 min_sesion = float(value[4])
-                fecha = datetime.datetime(int(value[0].split('/')[0]),  int(value[0].split('/')[1]), int(value[0].split('/')[2]) )
+                fecha = datetime.datetime(int(value[0].split('/')[0]),int(value[0].split('/')[1]),int(value[0].split('/')[2]))
                 hora = value[1].split('_')[0]
                 if fecha <= primera_fecha and int(hora) <= int(primera_hora):
                     primera_fecha = fecha
