@@ -11,5 +11,5 @@ while getopts ":a:o:" opt; do
 done
 
 
-python $script_name -r hadoop hdfs:///stonks/*.csv --output-dir $output_path
+python $script_name -r hadoop hdfs:///stonks/2*.csv --output-dir $output_path
 
